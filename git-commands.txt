@@ -1,7 +1,14 @@
 git init
-git add README.md
+
 git commit -m "first commit"
 git remote add origin https://github.com/PrakashReddyBobbu/learning-git.git
 git push -u origin master
 
+#creates a new file
 touch
+
+git status -short
+
+git status -short -s
+
+git diff --staged
